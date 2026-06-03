@@ -10,7 +10,12 @@ print(f"\nCharacter {name} has been successfully created!")
 if __name__ == "__main__":
 main()
 
-
+def roll_attributes():
+    return {
+    "Strength": random.randint(5, 20),
+    "Agility": random.randint(5, 20),
+    "Intellect": random.randint(5, 20)
+    }
 
 
 
