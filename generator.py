@@ -1,3 +1,6 @@
+import random
+
+
 # RPG Character Generator
 def main():
 print("--- Welcome to the Character Generator ---")
@@ -18,3 +21,6 @@ def get_starting_gear(char_class):
         "Rogue": ["Daggers", "Smoke Bomb"]
     }
     return gear.get(char_class, ["Ragged Clothes"])
+
+
+
