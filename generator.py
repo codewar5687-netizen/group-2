@@ -2,6 +2,10 @@ import random
 
 
 # RPG Character Generator
+def choose_class():
+    classes = ["Warrior", "Mage", "Rogue"]
+    print("Available Classes:", ", ".join(classes))
+
 def main():
     print("--- Welcome to the Character Generator ---")
     # Components will be combined here
